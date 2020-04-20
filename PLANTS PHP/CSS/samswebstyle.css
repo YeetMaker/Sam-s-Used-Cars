@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    width: 100%;
+    height:100%;
+
+}
+
+.pic1{
+    padding-top: 100px;
+    background-image: url(images/car.jpg);
+    width: 100%;
+    min-height: 1280px;
+    background-size: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px;
+    box-shadow: 100px 100px 400px white;
+}
+.pic2{
+    background-image: url(images/buick.jpg);
+    width: 100%;
+    min-height: 1280px;
+    background-size: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px;
+    box-shadow: 100px 100px 400px white;
+}
+.pic3{
+    background-image: url(images/ford.jpg);
+    width: 100%;
+    min-height: 1280px;
+    background-size: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px;
+    box-shadow: 100px 100px 400px white;
+    
+}
+.area{
+    width: 100%;
+
+    background:#e6e6e6;
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSI+CjxyZWN0IHdpZHRoPSI1MCIgaGVpZ2h0PSI1MCIgZmlsbD0iIzI4MjgyOCI+PC9yZWN0Pgo8Y2lyY2xlIGN4PSIzIiBjeT0iNC4zIiByPSIxLjgiIGZpbGw9IiMzOTM5MzkiPjwvY2lyY2xlPgo8Y2lyY2xlIGN4PSIzIiBjeT0iMyIgcj0iMS44IiBmaWxsPSJibGFjayI+PC9jaXJjbGU+CjxjaXJjbGUgY3g9IjEwLjUiIGN5PSIxMi41IiByPSIxLjgiIGZpbGw9IiMzOTM5MzkiPjwvY2lyY2xlPgo8Y2lyY2xlIGN4PSIxMC41IiBjeT0iMTEuMyIgcj0iMS44IiBmaWxsPSJibGFjayI+PC9jaXJjbGU+Cjwvc3ZnPg==");
+    display: flex;
+    box-shadow: 700px 700px 1000px black;
+
+}
+.area .box{
+    flex: 1;
+    display: block;
+    margin: 40px;
+
+}
+.area h2{
+    margin: 0;
+    margin-left:10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    color:#2fa2c4;
+    text-shadow: 2px 2px black;
+}
+.area p{
+    margin: 5px auto;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color:white;
+    text-shadow: 2px 2px black;
+    text-indent: 50px;
+}
